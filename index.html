@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203c32">
+  <meta name="description" content="Experiencia educativa interactiva sobre ética, responsabilidad social, gobierno corporativo, desarrollo sostenible y Objetivos de Desarrollo Sostenible.">
+  <title>Ética en acción — Pensar mejor. Actuar con sentido.</title>
+  <link rel="icon" href="assets/hero.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#etica" aria-label="Ética en acción, ir al inicio">
+      <span class="brand-mark" aria-hidden="true">é.</span>
+      <span class="brand-name">ética en acción</span>
+      <span class="brand-note">GUÍA INTERACTIVA</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#explorar">Temas</a>
+      <a href="#practica">Actividades</a>
+      <a href="#casos">Casos reales</a>
+      <a href="#videos">Videos</a>
+      <a href="#fuentes">Fuentes</a>
+    </nav>
+    <div class="visit-counter" aria-live="polite" aria-label="Visitas registradas">
+      <span class="visit-label">VISITAS REGISTRADAS</span>
+      <strong id="visit-count">—</strong>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="opening section-shell" id="etica" aria-labelledby="ethics-title">
+      <div class="opening-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> UNA BRÚJULA PARA DECIDIR</p>
+        <h1 id="ethics-title">¿Qué es la ética?</h1>
+        <p class="definition-text">La ética es una rama de la filosofía que estudia los principios y valores que orientan el comportamiento humano y ayudan a distinguir entre lo correcto y lo incorrecto.</p>
+        <p class="application-text">En las organizaciones implica actuar con honestidad, justicia, transparencia, respeto y responsabilidad frente a trabajadores, clientes, proveedores, la sociedad y el medioambiente.</p>
+        <div class="question-line"><span aria-hidden="true">✳</span> ¿Esta decisión es correcta, justa y responsable, incluso si nadie estuviera observándome?</div>
+      </div>
+      <div class="opening-art">
+        <img src="assets/hero.webp" alt="Composición artística de una balanza, un árbol y una escalera de piedra: justicia, decisiones y responsabilidad ambiental" width="1536" height="1024" fetchpriority="high">
+        <div class="art-caption"><span>ÉTICA · RESPONSABILIDAD · CONFIANZA</span><strong>Cada decisión deja una huella.</strong></div>
+      </div>
+    </section>
+
+    <section class="objective section-shell" id="objetivo" aria-labelledby="objective-title">
+      <div class="objective-index">01 <span>OBJETIVO DE APRENDIZAJE</span></div>
+      <div>
+        <h2 id="objective-title">Objetivo de aprendizaje</h2>
+        <p>Comprender la relación entre la ética, el desarrollo sostenible y los ODS, e identificar cómo las organizaciones pueden actuar responsablemente, promover la inclusión y garantizar prácticas éticas en sus cadenas de suministro.</p>
+      </div>
+      <div class="objective-aside">Una experiencia para conectar conceptos, decisiones empresariales y situaciones reales.</div>
+    </section>
+
+    <section class="explore section-shell" id="explorar" aria-labelledby="explore-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">RECORRIDO DE APRENDIZAJE</p>
+          <h2 id="explore-title">Explora los temas</h2>
+        </div>
+        <p class="section-intro">Selecciona una categoría para cambiar el contenido sin salir de la página. Puedes volver a cada tema cuando lo necesites.</p>
+      </div>
+      <div class="topic-tabs-wrap">
+        <div id="topic-tabs" class="topic-tabs" role="tablist" aria-label="Temas de estudio"></div>
+      </div>
+      <div class="learning-progress" aria-label="Progreso de lectura por temas">
+        <div class="progress-copy"><span>Tu recorrido</span><strong id="progress-label">1 de 9 temas explorados</strong></div>
+        <div class="progress-track" role="progressbar" aria-label="Temas explorados" aria-valuemin="0" aria-valuemax="9" aria-valuenow="1" id="topic-progress"><span id="progress-fill"></span></div>
+      </div>
+      <div id="topic-panel" class="topic-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+    </section>
+
+    <section class="practice-section" id="practica" aria-labelledby="practice-title">
+      <div class="section-shell">
+        <div class="section-heading practice-heading">
+          <div>
+            <p class="eyebrow">DE LA IDEA A LA ACCIÓN</p>
+            <h2 id="practice-title">Aprender también es decidir.</h2>
+          </div>
+          <p class="section-intro">Pon a prueba los conceptos: declara un conflicto, escucha a los grupos de interés, revisa proveedores y evalúa lo aprendido.</p>
+        </div>
+
+        <div class="practice-grid">
+          <article class="interactive-card dilemma-card">
+            <div class="card-kicker">ACTIVIDAD 01 · DILEMA ÉTICO</div>
+            <h3>El proveedor es de tu familia.</h3>
+            <p>Participas en la selección de un proveedor. Una empresa de un familiar presenta una oferta competitiva y el comité todavía no conoce el vínculo.</p>
+            <fieldset class="choice-fieldset">
+              <legend>¿Cómo actuarías?</legend>
+              <button class="dilemma-choice" type="button" data-choice="0" aria-pressed="false">Declaro el vínculo y solicito que se gestione mi participación <span>↗</span></button>
+              <button class="dilemma-choice" type="button" data-choice="1" aria-pressed="false">Voto por la oferta sin mencionar el parentesco <span>↗</span></button>
+              <button class="dilemma-choice" type="button" data-choice="2" aria-pressed="false">Descarto la oferta por mi cuenta, sin explicar el motivo <span>↗</span></button>
+            </fieldset>
+            <div id="dilemma-feedback" class="feedback-panel" role="status" aria-live="polite">Selecciona una alternativa para ver sus consecuencias.</div>
+          </article>
+
+          <article class="interactive-card stakeholder-card">
+            <div class="card-kicker">ACTIVIDAD 02 · MAPA DE STAKEHOLDERS</div>
+            <h3>¿A quién afecta una decisión?</h3>
+            <p>Selecciona un grupo de interés para explorar sus expectativas, riesgos y responsabilidades de la organización.</p>
+            <div id="stakeholder-buttons" class="stakeholder-buttons" aria-label="Grupos de interés"></div>
+            <div id="stakeholder-detail" class="stakeholder-detail" aria-live="polite"></div>
+          </article>
+        </div>
+
+        <article class="interactive-card checklist-card">
+          <div class="card-topline">
+            <div>
+              <div class="card-kicker">ACTIVIDAD 03 · SUMINISTRO RESPONSABLE</div>
+              <h3>Checklist para evaluar proveedores</h3>
+              <p>Marca los controles que ya puedes verificar. El resultado es orientativo y no constituye una certificación.</p>
+            </div>
+            <div class="checklist-score"><strong id="checklist-count">0/10</strong><span>criterios revisados</span></div>
+          </div>
+          <div id="supplier-checklist" class="checklist-grid"></div>
+          <div id="checklist-feedback" class="checklist-feedback" role="status" aria-live="polite">Aún no has marcado criterios. Revisa cada dimensión antes de sacar conclusiones.</div>
+        </article>
+
+        <div class="practice-grid quiz-and-plan">
+          <article class="interactive-card quiz-card">
+            <div class="card-kicker">ACTIVIDAD 04 · EVALUACIÓN</div>
+            <h3>Quiz ético</h3>
+            <p>10 preguntas de selección múltiple. Al finalizar verás tu puntaje y una explicación para cada respuesta.</p>
+            <form id="quiz-form">
+              <div id="quiz-questions"></div>
+              <button class="button button-dark" type="submit">Finalizar evaluación <span aria-hidden="true">→</span></button>
+            </form>
+            <div id="quiz-result" class="quiz-result" role="status" aria-live="polite" hidden></div>
+          </article>
+
+          <article class="interactive-card proposal-card">
+            <div class="card-kicker">ACTIVIDAD 05 · TRABAJO GRUPAL</div>
+            <h3>Tres propuestas medibles</h3>
+            <p>Diseña tres acciones para que una empresa turística mejore su ética, inclusión y sostenibilidad. Relaciona cada una con un ODS e indica cómo medirla.</p>
+            <form id="proposal-form">
+              <div class="proposal-field"><label for="proposal-1">Acción 1</label><input id="proposal-1" name="proposal1" placeholder="Ej. auditar condiciones laborales" required><label for="ods-1">ODS relacionado</label><select id="ods-1" name="ods1"><option value="8">ODS 8 · Trabajo decente</option><option value="5">ODS 5 · Igualdad de género</option><option value="10">ODS 10 · Reducción de desigualdades</option><option value="12">ODS 12 · Producción responsable</option><option value="16">ODS 16 · Instituciones sólidas</option><option value="13">ODS 13 · Acción por el clima</option></select><label for="metric-1">Indicador para medirla</label><input id="metric-1" name="metric1" placeholder="Ej. % de proveedores evaluados" required></div>
+              <div class="proposal-field"><label for="proposal-2">Acción 2</label><input id="proposal-2" name="proposal2" placeholder="Ej. adaptar actividades para personas con discapacidad" required><label for="ods-2">ODS relacionado</label><select id="ods-2" name="ods2"><option value="10">ODS 10 · Reducción de desigualdades</option><option value="8">ODS 8 · Trabajo decente</option><option value="5">ODS 5 · Igualdad de género</option><option value="11">ODS 11 · Comunidades sostenibles</option><option value="12">ODS 12 · Producción responsable</option></select><label for="metric-2">Indicador para medirla</label><input id="metric-2" name="metric2" placeholder="Ej. número de espacios accesibles" required></div>
+              <div class="proposal-field"><label for="proposal-3">Acción 3</label><input id="proposal-3" name="proposal3" placeholder="Ej. reducir plásticos de un solo uso" required><label for="ods-3">ODS relacionado</label><select id="ods-3" name="ods3"><option value="12">ODS 12 · Producción responsable</option><option value="13">ODS 13 · Acción por el clima</option><option value="6">ODS 6 · Agua limpia</option><option value="14">ODS 14 · Vida submarina</option><option value="15">ODS 15 · Ecosistemas terrestres</option></select><label for="metric-3">Indicador para medirla</label><input id="metric-3" name="metric3" placeholder="Ej. kg de residuos evitados por mes" required></div>
+              <button class="button button-outline" type="submit">Preparar propuesta <span aria-hidden="true">↗</span></button>
+            </form>
+            <div id="proposal-result" class="proposal-result" role="status" aria-live="polite" hidden></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases-section section-shell" id="casos" aria-labelledby="cases-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">ÉTICA EN CONTEXTO</p><h2 id="cases-title">Casos reales para analizar</h2></div>
+        <p class="section-intro">Cada tarjeta distingue los hechos documentados de las preguntas de análisis. Las fuentes están enlazadas en la propia ficha.</p>
+      </div>
+      <div id="case-grid" class="case-grid"></div>
+      <article class="illustrative-case">
+        <div class="illustrative-tag">CASO ILUSTRATIVO · NO ES UN HECHO REAL</div>
+        <div><h3>Empresa turística: ¿ganancias o responsabilidad?</h3><p>Una empresa busca aumentar sus ganancias. Considera contratar al proveedor más económico, aunque existen dudas sobre sus condiciones laborales; utiliza plásticos de un solo uso y sus instalaciones no están adaptadas para personas con discapacidad.</p></div>
+        <div class="illustrative-questions"><strong>Preguntas para el análisis</strong><ol><li>¿Qué problemas éticos se identifican?</li><li>¿Qué pilares del desarrollo sostenible se afectan?</li><li>¿Qué ODS se relacionan con la situación?</li><li>¿Qué medidas harían a la empresa más ética e inclusiva?</li><li>¿Qué criterios debería utilizar para seleccionar un proveedor responsable?</li></ol></div>
+      </article>
+    </section>
+
+    <section class="video-section" id="videos" aria-labelledby="videos-title">
+      <div class="section-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">PARA SEGUIR EXPLORANDO</p><h2 id="videos-title">Aprende también en video</h2></div>
+          <p class="section-intro">Recursos en español agrupados por tema. Se abren en una pestaña nueva y no se reproducen automáticamente.</p>
+        </div>
+        <div class="video-filters" id="video-filters" aria-label="Filtrar recursos audiovisuales"></div>
+        <div id="video-grid" class="video-grid"></div>
+        <p class="video-note">Las duraciones solo se muestran cuando están identificadas en una fuente consultada. El recurso de trabajo decente de la OIT se presenta como podcast complementario, no como video.</p>
+      </div>
+    </section>
+
+    <section class="sources-section section-shell" id="fuentes" aria-labelledby="sources-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONSULTA LOS MATERIALES ORIGINALES</p><h2 id="sources-title">Fuentes y materiales</h2></div>
+        <p class="section-intro">Documentos incluidos en el ZIP, copias de referencia organizadas y fuentes institucionales de los casos.</p>
+      </div>
+      <div id="source-grid" class="source-grid"></div>
+      <div class="source-caveat"><strong>Nota de integridad académica.</strong> La guía DOCX contiene el resumen de ética, sostenibilidad y ODS, pero el ZIP no incluye el PDF específico de ese material que se menciona dentro del documento. Por eso se enlaza la guía DOCX y la página oficial de Naciones Unidas para consultar los 17 ODS. Las cifras de Cityparking se presentan como datos del periodo del estudio, no como resultados actuales verificados. Las diapositivas sobre poder público pueden contener información institucional histórica; aquí solo se resumen funciones generales.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#etica"><span class="brand-mark" aria-hidden="true">é.</span><span class="brand-name">ética en acción</span></a>
+    <p>Pensar con criterio. Actuar con responsabilidad.</p>
+    <a class="back-top" href="#etica">Volver al inicio ↑</a>
+  </footer>
+</body>
+</html>
